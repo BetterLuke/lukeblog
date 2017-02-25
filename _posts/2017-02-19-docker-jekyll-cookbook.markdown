@@ -4,7 +4,7 @@ tittle:            “使用Docker快速搭建jekyll个人博客”
 subtitle:          "Using Docker to build a Jekyll blog website. It's easy but awesome to a beginner."
 date:              2017-02-19
 author:            "Luke"
-header-img:        "/img/in-post/post-cookbook/docker-jekyll/header.jpg"
+header-img:        "img/in-post/post-cookbook/docker-jekyll/header.jpg"
 catalog:           true
 tags:
     -Cookbook
