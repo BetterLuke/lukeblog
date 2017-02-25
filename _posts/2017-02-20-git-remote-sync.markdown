@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "在Linux服务器上搭建Git远程仓库"
 subtitle: "Setup Remote Repository on Linux."
 author: "Luke"
