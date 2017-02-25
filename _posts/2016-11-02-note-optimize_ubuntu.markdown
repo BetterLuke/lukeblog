@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      实用的ubuntu优化手记——系统清理，UI美观提升，oh-my-zsh终端配置
+title:      "实用的ubuntu优化手记——系统清理，UI美观提升，oh-my-zsh终端配置"
 subtitle:   "A System Performance Optimization Guide for Ubuntu. Make yours linux more clever, beautiful and effective."
 date:       2016-11-02
 author:     "luke"    
