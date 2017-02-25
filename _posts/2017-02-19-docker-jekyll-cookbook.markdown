@@ -1,6 +1,6 @@
 ---
 layout:            post
-tittle:            “Install Jekyll server via Docker | Cookbook”
+title:            “Install Jekyll server via Docker | Cookbook”
 subtitle:          "Using Docker to build a Jekyll blog website. It's easy but awesome to a beginner."
 date:              2017-02-19
 author:            "Luke"

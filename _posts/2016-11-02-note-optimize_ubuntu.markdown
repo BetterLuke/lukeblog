@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "实用的ubuntu优化手记——系统清理，UI美观提升，zsh终端配置"
+title:      "实用的ubuntu优化手记——系统清理，UI美观提升，oh-my-zsh终端配置"
 subtitle:   "A System Performance Optimization Guide for Ubuntu. Make yours linux more clever, beautiful and effective."
 date:       2016-11-02
 author:     "luke"    
@@ -8,7 +8,7 @@ header-img: "img/post-bg-unix-linux.jpg"
 catalog: true
 tags:
     - Operations
-    - CookBook
+    - Cookbook
 ---
 
 >记录一下自己对于ubuntu的优化：
@@ -59,7 +59,7 @@ sudo apt-get install unity-webapps-common
 
 ![](/img/in-post/post-cookbook/ubuntu-beautiful/c-01.png)
 
-Flatabulous是一个美好的词汇。所以如图所示，这套theme真的很美，丑陋的ubunu的真应该好好感谢它，默认的紫色主调背景色真的丑瞎眼，感觉大部分高亮色都不是很适合做长期编码工作者的背景色，毕竟很累眼睛好不好。好吧，敲击几下见键盘安装这个扁平化风格的主题：
+Flatabulous是一个美好的词汇。所以如图所示，这套theme真的很美，丑陋的ubuntu的真应该好好感谢它，默认的紫色主调背景色真的丑瞎眼，感觉大部分高亮色都不是很适合做长期编码工作者的背景色，毕竟很累眼睛好不好。好吧，敲击几下见键盘安装这个扁平化风格的主题：
 
 ```shell
 sudo add-apt-repository ppa:noobslab/themes
