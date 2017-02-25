@@ -4,7 +4,7 @@ tittle:            “使用Docker快速搭建jekyll个人博客”
 subtitle:          "Using Docker to build a Jekyll blog website. It's easy but awesome to a beginner."
 date:              2017-02-19
 author:            "Luke"
-header-img:        "/img/"
+header-img:        "/img/in-post/post-cookbook/docker-jekyll/header.jpg"
 catalog:           true
 tags:
     -Cookbook
@@ -37,7 +37,9 @@ tags:
 * 创建守护式进程Docker容器
 * 绑定Docker容器的端口与宿主机的端口之间的通信
 
-## First Step: Jekyll基础镜像
+# 配置流程
+
+## Jekyll基础镜像
 
 ```Dockerfile
 FROM ubuntu:latest
@@ -59,10 +61,10 @@ __注意：不要遗漏安装`gcc`和指定jekyll的版本号为`2.5.3`，否则
 然后，使用该Dockerfile创建新的镜像——Jekyll基础镜像：
 
 ```shell
-sudo docker built -t myJekyll .
+sudo docker built -t myJekyllBlog .
 ```
 
-## Second Step: Apache基础镜像
+## I.Apache基础镜像
 
 我这里使用的是docker hub上做好的apache镜像，快捷省心，直接pull下来就好了：
 
@@ -70,13 +72,13 @@ sudo docker built -t myJekyll .
 sudo docker pull eboraas/apache
 ```
 
-## Third Step: 启动Jekyll镜像——容器运行产生博客网站文件
+## II.启动myJekyllBlog容器运行产生博客网站文件
 
 ```shell
 sudo docker run -v $(pwd):/data --name jekyll_server myJekyll
 ```
 
-## Awesome Step: 启动Apache镜像——运行博客
+## III.启动Apache镜像——运行博客
 
 ```shell
 sudo docker run -d -P --volumes-from jekyll_server --name luke_blog eboraas/apache
