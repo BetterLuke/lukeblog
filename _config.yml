@@ -1,0 +1,114 @@
+# Site settings
+title: Luke Blog
+SEOTitle: 刘备的博客 | Luke Blog
+header-img: img/home-bg.jpg
+email: luke.bei.2015@gmail.com
+description: "关于前端与运维，DevOps，记录 | 刘备，Web Operstion，Front-End Engineer，Coder | 这里是 @Luke刘备 的个人博客，记录曾经流过的思想。"
+keyword: "刘备, Luke刘备, Luke, Luke Bei, 刘备的博客, Luke Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品, 张思佳, Star, 张思佳的男朋友，Hope，Star的男朋友"
+url: "lukeblog.top"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: false
+weibo_username:     LukeBei
+zhihu_username:     luke-bei
+github_username:    BetterLuke
+#twitter_username:  luke
+facebook_username:  LUKE.Bei
+# linkedin_username:  firstname-lastname-idxxxx
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: huxblog
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "墙高万丈，挡的是不来的人<br>要来，千军万马也挡不住。"
+sidebar-avatar: /img/avatar-luke.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "我的豆瓣",
+        href: "https://www.douban.com/people/98054270/"
+    },{
+        title: "Spotify 歌单",
+        href: "https://open.spotify.com/user/21zkjl3ixezjdg47w3r4jaq7i/playlist/4IrlPHRHENncyCJHfIShrk"
+    },{
+        title: "我们在爱丁堡|Goodtime in Edinburgh",
+        href: "https://livenapierac-my.sharepoint.com/personal/40214230_live_napier_ac_uk/_layouts/15/guestaccess.aspx?folderid=0fb418744bbd445b081bfdbcd61cfb380&authkey=AQOuXWGQNrHYakqV_hKsrwQ"
+    },{
+        title: "酷壳|coolshell",
+        href: "http://coolshell.cn/"
+    },{
+        title: "在每一个美好的思想前停留",
+        href: "https://luolei.org/"
+    },{
+        title: "羡辙Blog",
+        href: "http://zhangwenli.com/blog/"
+    },{
+        title: "Readfree",
+        href: "http://readfree.me/"
+    }
+]
