@@ -16,7 +16,7 @@ tags:
 
 就像图片中看到的那样，默认的bash页面简直是简陋至极：
 
-![](../img/in-post/post-personal-tmux/ugly-cmd.png)
+![](\img\in-post\post-personal-tmux\ugly-cmd.png)
 
 在这里，我不吐槽UI的骨感，只是没有类似原生linux中gnome或者kde多窗口终端页面，对于复杂的终端任务，使用起来就颇有不爽。在WSL中安装tmux就可很好实现多终端窗口的效果，上手体验后，大呼神器。
 
@@ -24,7 +24,7 @@ tags:
 
 整体的一个框架图就是：
 
-![](../img/in-post/post-personal-tmux/tmux-structure.png)
+![](\img\in-post\post-personal-tmux\tmux-structure.png)
 
 对于tmux，自己的本次掌握的主要是两点：
 
@@ -101,7 +101,7 @@ setw -g mode-keys vi
 
 贴上使用上述配置文件后，更换了prefix的默认组合`Ctrl-b`(需要两个手指，一点都不人工学好不好)为`Ctrl-a`；优化了一些快捷键；美化了statusbar； 最后：WSL的bash就变成了这个样子：
 
-![](../img/in-post/post-personal-tmux/wsl-tmux.png)
+![](\img\in-post\post-personal-tmux\wsl-tmux.png)
 
 > ALT + ENTER 可以让CMD进入全屏模式
 
@@ -142,7 +142,7 @@ setw -g mode-keys vi
 
 保持分享精神：
 
-![](../img/in-post/post-personal-tmux/github-tmux-issue.png)
+![](\img\in-post\post-personal-tmux\github-tmux-issue.png)
 
 #让终端与Tmux一起启动
 很快就发现，如果每次使用的开始都需要在终端输入`tmux`才能激活使用，感觉会很麻烦，最好能够让Tmux和终端一起启动，解决办法就是在你的`.bashrc`文件里添加如下脚本：
