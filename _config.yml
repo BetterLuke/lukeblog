@@ -56,12 +56,12 @@ kramdown:
 
 
 # Disqus settings
-#disqus_username: lukebeiblog
+#disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-# duoshuo_username: lukebeiblog
+duoshuo_username: huxblog
 # Share component is depend on Comment so we can NOT use share only.
-#duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
 
 
@@ -71,8 +71,8 @@ kramdown:
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: UA-92468211-1        # Format: UA-xxxxxx-xx
-ga_domain: www.lukeblog.top
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: huangxuan.me
 
 
 
