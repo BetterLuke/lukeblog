@@ -4,14 +4,14 @@ title:      "读过《百年孤独》"
 subtitle:   "After reading the One Hundred Years of Solitude."
 date:       2017-06-11
 author:     "luke"    
-header-img: "https://i.enkiquotes.com/GrUEzsqu7psqOKB6ZbdLkZRukSk=/800x0//images/2016/08/afa8a9115c51bc45af844042f74ae546.png"
+header-img: "img/"
 catalog: false
 tags:
     - Book
 ---
 
 # 百年孤独
-![](https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=imgres&cd=&cad=rja&uact=8&ved=0ahUKEwiigtqKg7XUAhUHq48KHe--DaoQjRwIBw&url=http%3A%2F%2Fwww.vanityfair.com%2Fculture%2F2015%2F12%2Fgabriel-garcia-marquez-one-hundred-years-of-solitude-history&psig=AFQjCNGWJQBaARGWH3HXLJG9ljdZ7SvcfA&ust=1497244106762029)
+![](/img/post-One-Hundred-Years-of-Solitude/author02.jpg)
 
 ## 蝉鸣时
 
@@ -23,7 +23,7 @@ tags:
 
 翻看书页，马尔克斯的许多句子，如诗般富有哲理与音韵（感谢译者功力之深）。我拿铅笔，轻轻的画下，记在心里。
 
-![](\img\post-One-Hundred-Years-of-Solitude\book-01.jpg)
+![](/img/post-One-Hundred-Years-of-Solitude/book-01.jpg)
 
 ## 阴沉的黄昏
 
@@ -39,7 +39,7 @@ tags:
 
 很爱马尔克斯那种“多年以后……”的笔调，让时空倏然叠加重合，岁月变换的沧桑感尤为沉重。说不清，内心为什么会对“多年以后”四字感受极深……。
 
-![](https://www.google.co.in/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwik9rmyhLXUAhXMRo8KHS-jB2kQjRwIBw&url=https%3A%2F%2Fpixabay.com%2Fen%2Fbook-book-pages-read-books-1078365%2F&psig=AFQjCNH8BFTydiZGFsbEfRabxIOI189t5g&ust=1497244425116909)
+![](/img/post-One-Hundred-Years-of-Solitude/book-02.jpg)
 
 ## 重读在一个呼吸很浅的夜
 
@@ -67,4 +67,4 @@ tags:
 
 至于现在，至于青春，至于自己。唱一首歌，学一样技术，看一些人的模样，读一些书。生活里去好好生活，感受到它们的存在于不一样，经历黑暗与阳光，世界本就是这样。
 
-![](\img\post-One-Hundred-Years-of-Solitude\c-01.jpg)
+![](/img/post-One-Hundred-Years-of-Solitude/c-01.jpg)
