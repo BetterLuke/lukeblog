@@ -144,7 +144,7 @@ setw -g mode-keys vi
 
 ![](\img\in-post\post-personal-tmux\github-tmux-issue.png)
 
-#让终端与Tmux一起启动
+# 让终端与Tmux一起启动
 很快就发现，如果每次使用的开始都需要在终端输入`tmux`才能激活使用，感觉会很麻烦，最好能够让Tmux和终端一起启动，解决办法就是在你的`.bashrc`文件里添加如下脚本：
 
 ```bash
