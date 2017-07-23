@@ -1,51 +1,48 @@
---- title: Portfolio layout: default ---
+---
+title: Portfolio
+layout: default
+---
 
 <!DOCTYPE html>
 <html class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Hux - Timeline</title>
+		<link rel="stylesheet" type="text/css" href="css/timeline.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container" style="margin:0;padding:0;width:100%;">
+			<header>
+				<img width="175" height="175" style="border-radius:50%;" src="/img/avatar-luke.jpg">
+				<h1>Luke</h1>
+				<p>A student major in Web & Operations,<br>
+					focus on Web Development and Container Virtualization.</p>
+			</header>
+			<div class="main">
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Luke - Resume</title>
-	<link rel="stylesheet" type="text/css" href="css/timeline.css" />
-	<script src="js/modernizr.custom.js"></script>
-</head>
 
-<body>
-	<div class="container" style="margin:0;padding:0;width:100%;">
-		<header>
-			<img width="175" height="175" style="border-radius:50%;" src="/img/avatar-luke.jpg">
-			<h1>Luke</h1>
-			<p>A student major in Web & Operations,<br> focus on Web Development and Container Virtualization.</p>
-		</header>
-		<div class="main">
-			<iframe src="../实习简历.html" frameborder="0" scrolling=no style="margin:0;padding:0;width:100%;" height="1400">
-			</iframe>
 		</div>
-	</div>
+		{% if site.duoshuo_username %}
+		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+		<script type="text/javascript">
+		    // dynamic User by Hux
+		    var _user = '{{site.duoshuo_username}}';
 
-
-	{% if site.duoshuo_username %}
-	<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
-	<script type="text/javascript">
-		// dynamic User by Hux
-		var _user = '{{site.duoshuo_username}}';
-
-		// duoshuo comment query.
-		var duoshuoQuery = { short_name: _user };
-		(function () {
-			var ds = document.createElement('script');
-			ds.type = 'text/javascript'; ds.async = true;
-			ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-			ds.charset = 'UTF-8';
-			(document.getElementsByTagName('head')[0]
-				|| document.getElementsByTagName('body')[0]).appendChild(ds);
-		})();
-	</script>
-	<!-- 多说公共JS代码 end -->
-	{% endif %}
-
-</body>
-
+		    // duoshuo comment query.
+		    var duoshuoQuery = {short_name: _user };
+		    (function() {
+		        var ds = document.createElement('script');
+		        ds.type = 'text/javascript';ds.async = true;
+		        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+		        ds.charset = 'UTF-8';
+		        (document.getElementsByTagName('head')[0]
+		         || document.getElementsByTagName('body')[0]).appendChild(ds);
+		    })();
+		</script>
+		<!-- 多说公共JS代码 end -->
+		{% endif %}
+	</body>
 </html>
